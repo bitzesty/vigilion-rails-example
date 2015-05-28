@@ -14,10 +14,11 @@
 ActiveRecord::Schema.define(version: 20150522161507) do
 
   create_table "documents", force: :cascade do |t|
-    t.string   "name",       limit: 255
-    t.string   "attachment", limit: 255
-    t.datetime "created_at",             null: false
-    t.datetime "updated_at",             null: false
+    t.string   "name"
+    t.string   "attachment"
+    t.string   "attachment_scan_results"
+    t.datetime "created_at",              null: false
+    t.datetime "updated_at",              null: false
   end
 
 end
