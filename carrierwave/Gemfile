@@ -43,5 +43,5 @@ group :development, :test do
   gem 'spring'
 end
 
-gem "vs_rails", path: "~/src/bitzesty/vs-rails"
+gem "vigilion-rails", path: "~/src/bitzesty/vigilion-rails"
 gem "carrierwave"

@@ -1,7 +1,7 @@
 PATH
-  remote: ~/src/bitzesty/vs-rails
+  remote: ~/src/bitzesty/vigilion-rails
   specs:
-    vs_rails (0.0.7)
+    vigilion-rails (0.0.7)
       rails (= 4.2.0)
       virus-scanner (~> 0.0.5)
 
@@ -173,5 +173,5 @@ DEPENDENCIES
   spring
   turbolinks
   uglifier (>= 1.3.0)
-  vs_rails!
+  vigilion-rails!
   web-console (~> 2.0)
