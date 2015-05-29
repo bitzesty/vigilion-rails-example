@@ -3,12 +3,12 @@ PATH
   specs:
     vigilion-rails (0.0.7)
       rails (~> 4.2.0)
-      vigilion
+      vigilion (~> 0.1.0)
 
 PATH
   remote: ../../vigilion-ruby
   specs:
-    vigilion (0.0.5)
+    vigilion (0.1.0)
       faraday
       faraday_middleware
 
