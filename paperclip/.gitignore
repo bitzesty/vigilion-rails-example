@@ -1,0 +1,7 @@
+/log/*
+!/log/.keep
+/tmp
+.env
+/public/system
+/public/uploads
+/db/*.sqlite3
