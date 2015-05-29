@@ -1,9 +1,16 @@
 PATH
-  remote: ~/src/bitzesty/vigilion-rails
+  remote: ../../vigilion-rails
   specs:
     vigilion-rails (0.0.7)
-      rails (= 4.2.0)
-      virus-scanner (~> 0.0.5)
+      rails (~> 4.2.0)
+      vigilion
+
+PATH
+  remote: ../../vigilion-ruby
+  specs:
+    vigilion (0.0.5)
+      faraday
+      faraday_middleware
 
 GEM
   remote: https://rubygems.org/
@@ -148,9 +155,6 @@ GEM
     uglifier (2.7.1)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
-    virus-scanner (0.0.5)
-      faraday
-      faraday_middleware
     web-console (2.1.2)
       activemodel (>= 4.0)
       binding_of_caller (>= 0.7.2)
@@ -173,5 +177,6 @@ DEPENDENCIES
   sqlite3
   turbolinks
   uglifier (>= 1.3.0)
+  vigilion!
   vigilion-rails!
   web-console (~> 2.0)
