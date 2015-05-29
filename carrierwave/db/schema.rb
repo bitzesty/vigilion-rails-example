@@ -11,14 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150522161507) do
+ActiveRecord::Schema.define(version: 20150529135100) do
 
   create_table "documents", force: :cascade do |t|
     t.string   "name"
     t.string   "attachment"
-    t.string   "attachment_scan_results"
     t.datetime "created_at",              null: false
     t.datetime "updated_at",              null: false
+    t.string   "attachment_scan_results"
   end
 
 end
