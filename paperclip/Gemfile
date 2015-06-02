@@ -45,3 +45,6 @@ end
 gem "vigilion-rails", path: "../../vigilion-rails"
 gem "vigilion", path: "../../vigilion-ruby"
 gem "paperclip"
+gem 'aws-sdk', '< 2.0'
+
+gem 'dotenv-rails'
