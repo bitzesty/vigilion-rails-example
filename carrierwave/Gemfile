@@ -45,3 +45,8 @@ end
 gem "vigilion-rails", path: "../../vigilion-rails"
 gem "vigilion", path: "../../vigilion-ruby"
 gem "carrierwave"
+
+gem "fog"
+gem "fog-aws"
+
+gem 'dotenv-rails', :groups => [:development, :test]
