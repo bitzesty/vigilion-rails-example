@@ -42,8 +42,8 @@ group :development, :test do
   gem 'spring'
 end
 
-gem "vigilion-rails", path: "../../vigilion-rails"
-gem "vigilion", path: "../../vigilion-ruby"
+gem "vigilion-rails", github: "bitzesty/vigilion-rails"
+gem "vigilion", github: "bitzesty/vigilion-ruby"
 gem "paperclip"
 gem 'aws-sdk', '< 2.0'
 
