@@ -1,12 +1,14 @@
-PATH
-  remote: ../../vigilion-rails
+GIT
+  remote: git://github.com/vigilion/vigilion-rails.git
+  revision: 93f0aeb441da1cacaa298c5be1f2921fbb8bf476
   specs:
     vigilion-rails (0.0.7)
       rails (~> 4.2.0)
       vigilion (~> 0.1.0)
 
-PATH
-  remote: ../../vigilion-ruby
+GIT
+  remote: git://github.com/vigilion/vigilion-ruby.git
+  revision: 04413a9e872839a0f97ed76b5b8ebf2bd7ea169d
   specs:
     vigilion (0.1.0)
       faraday
@@ -194,3 +196,6 @@ DEPENDENCIES
   vigilion!
   vigilion-rails!
   web-console (~> 2.0)
+
+BUNDLED WITH
+   1.10.3
