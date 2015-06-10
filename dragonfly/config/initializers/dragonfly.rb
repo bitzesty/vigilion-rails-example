@@ -1,16 +1,18 @@
 require 'dragonfly'
+require 'dragonfly/s3_data_store'
 
 # Configure
 Dragonfly.app.configure do
   plugin :imagemagick
-
   secret "822f75f4b18fce6224175a4c2150305ed83b04439c92631241cc733d17eca5bc"
 
   url_format "/media/:job/:name"
+  url_host "http://localhost:3000"
 
-  datastore :file,
-    root_path: Rails.root.join('public/system/dragonfly', Rails.env),
-    server_root: Rails.root.join('public')
+  datastore :s3,
+    bucket_name: ENV['AWS_S3_BUCKET'],
+    access_key_id: ENV['AWS_S3_KEY_ID'],
+    secret_access_key: ENV['AWS_S3_ACCESS_KEY']
 end
 
 # Logger
