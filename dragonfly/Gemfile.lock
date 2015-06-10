@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/bitzesty/vigilion-rails.git
+  remote: git://github.com/vigilion/vigilion-rails.git
   revision: 93f0aeb441da1cacaa298c5be1f2921fbb8bf476
   specs:
     vigilion-rails (0.0.7)
@@ -7,7 +7,7 @@ GIT
       vigilion (~> 0.1.0)
 
 GIT
-  remote: git://github.com/bitzesty/vigilion-ruby.git
+  remote: git://github.com/vigilion/vigilion-ruby.git
   revision: 04413a9e872839a0f97ed76b5b8ebf2bd7ea169d
   specs:
     vigilion (0.1.0)
