@@ -1,16 +1,16 @@
 GIT
   remote: git://github.com/vigilion/vigilion-rails.git
-  revision: 93f0aeb441da1cacaa298c5be1f2921fbb8bf476
+  revision: 6c380e54a765fa948f5f34fd48cf26b9b50451f3
   specs:
-    vigilion-rails (0.0.7)
+    vigilion-rails (0.0.8)
       rails (~> 4.2.0)
       vigilion (~> 0.1.0)
 
 GIT
   remote: git://github.com/vigilion/vigilion-ruby.git
-  revision: 04413a9e872839a0f97ed76b5b8ebf2bd7ea169d
+  revision: 59981765aaa7d60fa47e674ba55e27a1dcd0a64c
   specs:
-    vigilion (0.1.0)
+    vigilion (0.1.1)
       faraday
       faraday_middleware
 
@@ -85,11 +85,11 @@ GEM
       faraday (>= 0.7.4, < 0.10)
     fission (0.5.0)
       CFPropertyList (~> 2.2)
-    fog (1.30.0)
+    fog (1.31.0)
       fog-atmos
       fog-aws (~> 0.0)
       fog-brightbox (~> 0.4)
-      fog-core (~> 1.27, >= 1.27.4)
+      fog-core (~> 1.30)
       fog-ecloud
       fog-google (>= 0.0.2)
       fog-json
@@ -127,7 +127,7 @@ GEM
       mime-types
       net-scp (~> 1.1)
       net-ssh (>= 2.1.3)
-    fog-ecloud (0.1.1)
+    fog-ecloud (0.1.3)
       fog-core
       fog-xml
     fog-google (0.0.5)
@@ -143,7 +143,7 @@ GEM
       fog-core (~> 1.27)
       fog-json (~> 1.0)
       fog-xml (~> 0.1)
-    fog-profitbricks (0.0.2)
+    fog-profitbricks (0.0.3)
       fog-core
       fog-xml
       nokogiri
@@ -192,7 +192,7 @@ GEM
       rails-dom-testing (~> 1.0)
       railties (>= 4.2.0)
       thor (>= 0.14, < 2.0)
-    json (1.8.2)
+    json (1.8.3)
     loofah (2.0.2)
       nokogiri (>= 1.5.9)
     mail (2.6.3)
@@ -200,7 +200,7 @@ GEM
     mime-types (2.6.1)
     mini_portile (0.6.2)
     minitest (5.7.0)
-    multi_json (1.11.0)
+    multi_json (1.11.1)
     multipart-post (2.0.0)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
@@ -247,7 +247,7 @@ GEM
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
     spring (1.3.6)
-    sprockets (3.1.0)
+    sprockets (3.2.0)
       rack (~> 1.0)
     sprockets-rails (2.3.1)
       actionpack (>= 3.0)
@@ -292,6 +292,3 @@ DEPENDENCIES
   vigilion!
   vigilion-rails!
   web-console (~> 2.0)
-
-BUNDLED WITH
-   1.10.3

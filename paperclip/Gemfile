@@ -44,6 +44,7 @@ end
 
 gem "vigilion-rails", github: "vigilion/vigilion-rails"
 gem "vigilion", github: "vigilion/vigilion-ruby"
+
 gem "paperclip"
 gem 'aws-sdk', '< 2.0'
 

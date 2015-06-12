@@ -43,7 +43,7 @@ group :development, :test do
   gem 'spring'
 end
 
-gem "vigilion-rails", github: "vigilion/vigilion-rails", branch: "dragonfly-integration"
+gem "vigilion-rails", github: "vigilion/vigilion-rails"
 gem "vigilion", github: "vigilion/vigilion-ruby"
 
 gem "dragonfly"
