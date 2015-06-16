@@ -10,9 +10,9 @@ Dragonfly.app.configure do
   url_host "http://localhost:3000"
 
   datastore :s3,
-    bucket_name: ENV['AWS_S3_BUCKET'],
-    access_key_id: ENV['AWS_S3_KEY_ID'],
-    secret_access_key: ENV['AWS_S3_ACCESS_KEY']
+    bucket_name: ENV['AWS_S3_BUCKET_NAME'],
+    access_key_id: ENV['AWS_ACCESS_KEY_ID'],
+    secret_access_key: ENV['AWS_SECRET_ACCESS_KEY']
 end
 
 # Logger
