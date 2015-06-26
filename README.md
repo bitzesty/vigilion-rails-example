@@ -11,3 +11,5 @@ https://github.com/vigilion/vigilion-rails
 
 To make use of the gem, you will need to create an account at
 http://vigilion.com
+
+(c) 2015 BitZesty Ltd.
