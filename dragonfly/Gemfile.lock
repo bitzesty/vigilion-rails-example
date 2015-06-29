@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: git://github.com/vigilion/vigilion-ruby.git
-  revision: 3344d4a02c75f7dee8d4f26593a8d7ef3112a981
+  revision: 11fb52fbed6d8a49e4255ce4f0dbbedcc346c605
   specs:
     vigilion (0.1.1)
       faraday
