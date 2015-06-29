@@ -7,6 +7,7 @@ using **vigilion-rails** integrated with 3 differents gems:
 * **paperclip** https://github.com/thoughtbot/paperclip
 
 Here you can find the gem's documentation:
+
 https://github.com/vigilion/vigilion-rails
 
 To make use of the gem, you will need to create an account at
