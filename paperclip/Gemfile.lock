@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/vigilion/vigilion-rails.git
-  revision: 453da53e03ec4a166dc2b4ce87c33d6fad7d04ea
+  revision: 32040c4ffa22387dc822c582e4325f14e2e699c6
   specs:
     vigilion-rails (0.0.8)
       rails (~> 4.2.0)
@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: git://github.com/vigilion/vigilion-ruby.git
-  revision: 11fb52fbed6d8a49e4255ce4f0dbbedcc346c605
+  revision: 6f466c31dfe4bd73461baa0b8523dffe12bbdb7e
   specs:
     vigilion (0.1.1)
       faraday
@@ -52,7 +52,7 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
-    arel (6.0.0)
+    arel (6.0.2)
     aws-sdk (1.64.0)
       aws-sdk-v1 (= 1.64.0)
     aws-sdk-v1 (1.64.0)
@@ -83,7 +83,7 @@ GEM
     execjs (2.5.2)
     faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
-    faraday_middleware (0.9.1)
+    faraday_middleware (0.10.0)
       faraday (>= 0.7.4, < 0.10)
     globalid (0.3.5)
       activesupport (>= 4.1.0)
@@ -198,4 +198,4 @@ DEPENDENCIES
   web-console (~> 2.0)
 
 BUNDLED WITH
-   1.10.3
+   1.10.5
