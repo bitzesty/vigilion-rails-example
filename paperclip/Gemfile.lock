@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/vigilion/vigilion-rails.git
-  revision: 32040c4ffa22387dc822c582e4325f14e2e699c6
+  revision: 736ad4a3654e547e4e49a194f7c77a5acae1e7c4
   specs:
     vigilion-rails (0.0.8)
       rails (~> 4.2.0)
@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: git://github.com/vigilion/vigilion-ruby.git
-  revision: 6f466c31dfe4bd73461baa0b8523dffe12bbdb7e
+  revision: c1b4f2a726bc51cb4a8813ec806eff824c4d61e9
   specs:
     vigilion (0.1.1)
       faraday
@@ -198,4 +198,4 @@ DEPENDENCIES
   web-console (~> 2.0)
 
 BUNDLED WITH
-   1.10.5
+   1.10.6
