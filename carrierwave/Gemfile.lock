@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/vigilion/vigilion-rails.git
-  revision: 736ad4a3654e547e4e49a194f7c77a5acae1e7c4
+  revision: d3aed07aa716c9113870327650fc342b07f8edff
   specs:
     vigilion-rails (0.0.8)
       rails (~> 4.2.0)
@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: git://github.com/vigilion/vigilion-ruby.git
-  revision: c1b4f2a726bc51cb4a8813ec806eff824c4d61e9
+  revision: 3836206e3ea18ab1464b15dc3a402f9374e4b0dd
   specs:
     vigilion (0.1.1)
       faraday
@@ -53,7 +53,7 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
-    arel (6.0.2)
+    arel (6.0.3)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
     builder (3.2.2)
@@ -180,7 +180,7 @@ GEM
       fog-core
       nokogiri (~> 1.5, >= 1.5.11)
     formatador (0.2.5)
-    globalid (0.3.5)
+    globalid (0.3.6)
       activesupport (>= 4.1.0)
     i18n (0.7.0)
     inflecto (0.0.2)
@@ -193,13 +193,13 @@ GEM
       railties (>= 4.2.0)
       thor (>= 0.14, < 2.0)
     json (1.8.3)
-    loofah (2.0.2)
+    loofah (2.0.3)
       nokogiri (>= 1.5.9)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
-    mime-types (2.6.1)
+    mime-types (2.6.2)
     mini_portile (0.6.2)
-    minitest (5.7.0)
+    minitest (5.8.1)
     multi_json (1.11.1)
     multipart-post (2.0.0)
     net-scp (1.2.1)
@@ -223,7 +223,7 @@ GEM
       sprockets-rails
     rails-deprecated_sanitizer (1.0.3)
       activesupport (>= 4.2.0.alpha)
-    rails-dom-testing (1.0.6)
+    rails-dom-testing (1.0.7)
       activesupport (>= 4.2.0.beta, < 5.0)
       nokogiri (~> 1.6.0)
       rails-deprecated_sanitizer (>= 1.0.1)
@@ -247,9 +247,9 @@ GEM
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
     spring (1.3.6)
-    sprockets (3.2.0)
-      rack (~> 1.0)
-    sprockets-rails (2.3.2)
+    sprockets (3.4.0)
+      rack (> 1, < 3)
+    sprockets-rails (2.3.3)
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (>= 2.8, < 4.0)
