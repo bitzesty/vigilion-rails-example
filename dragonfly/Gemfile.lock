@@ -1,16 +1,16 @@
 GIT
   remote: git://github.com/vigilion/vigilion-rails.git
-  revision: d3aed07aa716c9113870327650fc342b07f8edff
+  revision: 75e8fa50cfa41da4d8d2fdcb25a71707790bc1e3
   specs:
     vigilion-rails (0.0.8)
       rails (~> 4.2.0)
-      vigilion (~> 0.1.0)
+      vigilion (~> 1.0.0)
 
 GIT
   remote: git://github.com/vigilion/vigilion-ruby.git
-  revision: 3836206e3ea18ab1464b15dc3a402f9374e4b0dd
+  revision: 845dbde2ee79f9a424521fdf9370969b66aba1d2
   specs:
-    vigilion (0.1.1)
+    vigilion (1.0.0)
       faraday
       faraday_middleware
 
@@ -81,7 +81,7 @@ GEM
     erubis (2.7.0)
     excon (0.45.3)
     execjs (2.5.2)
-    faraday (0.9.1)
+    faraday (0.9.2)
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.10.0)
       faraday (>= 0.7.4, < 0.10)
