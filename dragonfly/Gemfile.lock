@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/vigilion/vigilion-rails.git
-  revision: 75e8fa50cfa41da4d8d2fdcb25a71707790bc1e3
+  revision: 58fdd836f588927c6352f091f25afa8ee175f945
   specs:
     vigilion-rails (0.0.8)
       rails (~> 4.2.0)
@@ -125,7 +125,7 @@ GEM
       mime-types (>= 1.16, < 3)
     mime-types (2.6.2)
     mini_portile (0.6.2)
-    minitest (5.8.1)
+    minitest (5.8.2)
     multi_json (1.11.1)
     multipart-post (2.0.0)
     net-scp (1.2.1)
